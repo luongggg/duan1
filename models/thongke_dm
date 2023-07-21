@@ -1,0 +1,11 @@
+<?php
+function danh_muc_all(){
+    $conn= connection();
+    $sql="SELECT *FROM danh_muc order by id_dm desc";
+    // chuẩn bị
+    $stmt= $conn->prepare($sql);
+    $stmt->execute();
+    $dm=$stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $dm;
+    } 
+?>

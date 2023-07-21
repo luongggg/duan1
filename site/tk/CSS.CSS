@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.boxform{
+    margin-top: 300px;
+}
+form{
+    
+    margin: auto;
+    border: 2px solid rgb(106, 126, 80);
+    width: 600px;
+
+}
+form h1{
+    text-align: center;
+    font-size: 60px;
+}
+.container1{
+    padding-left: 150px;
+    font-size: 25px;
+}
